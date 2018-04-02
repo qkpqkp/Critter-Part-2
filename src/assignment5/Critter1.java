@@ -29,7 +29,7 @@ public class Critter1 extends TestCritter {
 	/**
 	 * Decide fight or not, if not, try run or walk away
 	 * @return Decide to fight or not
-	 * @param Enemy critter
+	 * @param enemy critter
 	 * The Critter largely tends to fight instead of escape
 	 */
 	public boolean fight(String enemy) { 
@@ -138,5 +138,8 @@ public class Critter1 extends TestCritter {
 		assert(turn < 8);
 		
 		dir = (dir + turn) % 8;
+
+
 	}
+	public CritterShape viewShape() { return CritterShape.CIRCLE; }
 }

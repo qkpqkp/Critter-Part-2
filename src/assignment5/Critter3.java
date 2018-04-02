@@ -60,5 +60,6 @@ public class Critter3 extends TestCritter{
 
         dir = roll  % 8;
     }
+    public CritterShape viewShape() { return CritterShape.CIRCLE; }
 
 }

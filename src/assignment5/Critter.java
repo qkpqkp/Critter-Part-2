@@ -40,6 +40,11 @@ public abstract class Critter {
 	private	static List<Critter> population = new java.util.ArrayList<Critter>();
 	private static List<Critter> babies = new java.util.ArrayList<Critter>();
 	protected boolean permit_to_move;
+	private int energy = 0;
+	protected int getX() { return x_coord;}
+	protected int getY() { return y_coord;}
+
+
 	// Gets the package name.  This assumes that Critter and its subclasses are all in the same package.
 	static {
 		myPackage = Critter.class.getPackage().toString().split(" ")[1];
@@ -100,7 +105,7 @@ public abstract class Critter {
 	/* a one-character long string that visually depicts your critter in the ASCII interface */
 	public String toString() { return ""; }
 	
-	private int energy = 0;
+	//private int energy = 0;
 	protected int getEnergy() { return energy; }
 	
 	private int x_coord;
@@ -334,7 +339,7 @@ public abstract class Critter {
 	 */
 	public static void makeCritter(String critter_class_name) throws InvalidCritterException {
 		try {
-			Class c = Class.forName("assignment4." + critter_class_name);
+			Class c = Class.forName("assignment5." + critter_class_name);
 			Critter crit=(Critter) c.newInstance();
 
 
@@ -442,6 +447,7 @@ public abstract class Critter {
 	 * Clear the world of all critters, dead and alive
 	 */
 	public static void clearWorld() {
+
 	}
 	
 	

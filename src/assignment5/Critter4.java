@@ -93,4 +93,5 @@ public class Critter4 extends TestCritter{
 
         dir = (dir + turn) % 8;
     }
+    public CritterShape viewShape() { return CritterShape.CIRCLE; }
 }
