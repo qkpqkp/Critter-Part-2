@@ -51,7 +51,7 @@ public class Main extends Application{
 		GridPane.setConstraints(make,0,0);
 
 		ArrayList<String> filenames=new ArrayList<>();
-		File folder=new File("/Users/cindyvu/Documents/GitHub/Critter-Part-2/src/assignment5");
+		File folder=new File("E:\\Java Programming\\Critter-part-2\\src\\assignment5");
 		File[] listOfFiles = folder.listFiles();
 		for (File file : listOfFiles) {
 			if (file.isFile()) {
@@ -73,13 +73,19 @@ public class Main extends Application{
 			}
 		}
 		HBox makeControl=new HBox();
-		Button makeGo=new Button("GO");
-		makeGo.setOnAction(e->{
-
-		});
-
 		TextField numcrit=new TextField();
 		ChoiceBox critter=new ChoiceBox(FXCollections.observableArrayList(filenames));
+		Button makeGo=new Button("GO");
+		makeGo.setOnAction(e->{
+			for(int i =0;i < Integer.parseInt(numcrit.getText().toString());i++) {
+				try {
+					Critter.makeCritter(critter.getValue().toString());
+				} catch (InvalidCritterException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
+		});
 
 		makeControl.getChildren().addAll(numcrit, makeGo);
 		GridPane.setConstraints(critter,0,2);
@@ -94,25 +100,31 @@ public class Main extends Application{
 
 		Button step1=new Button("Step 1");
 		step1.setOnAction(e->{
-			//do something
+			Critter.worldTimeStep();
 		});
 
 
 		Button step10=new Button("Step 10");
 		step10.setOnAction(e->{
-			//do something
+			for(int i = 0;i<10;i++) {
+				Critter.worldTimeStep();
+			}
 		});
 
 
 		Button step100=new Button("Step 100");
 		step100.setOnAction(e->{
-			//do something
+			for(int i = 0;i<100;i++) {
+				Critter.worldTimeStep();
+			}
 		});
 
 
 		Button step1000=new Button("Step 1000");
 		step1000.setOnAction(e->{
-			//do something
+			for(int i = 0;i<1000;i++) {
+				Critter.worldTimeStep();
+			}
 		});
 
 
@@ -124,15 +136,16 @@ public class Main extends Application{
 		stepPreset2.getChildren().addAll(step100,step1000);
 		GridPane.setConstraints(stepPreset2,0,6);
 
-
+		TextField stepnum=new TextField();
 		Button stepgo=new Button("GO");
 		stepgo.setOnAction(e->{
-			//do something
+			for(int i = 0;i < Integer.parseInt(stepnum.getText().toString());i++) {
+				Critter.worldTimeStep();
+			}
 		});
 
 
 		HBox stepControl=new HBox();
-		TextField stepnum=new TextField();
 		stepControl.getChildren().addAll(stepnum,stepgo);
 		GridPane.setConstraints(stepControl,0,7);
 
@@ -154,7 +167,7 @@ public class Main extends Application{
 		Button runstatGo=new Button("GO");
 		Button updateAll=new Button("Update All");
 		runstatGo.setOnAction(e->{
-			//do something
+			
 		});
 		rs.getChildren().addAll(c1,c2,c3,c4,runstatGo,updateAll);
 		GridPane.setConstraints(rs,0,9);
@@ -165,13 +178,13 @@ public class Main extends Application{
 		seed.setFont(Font.font("Verdana",10));
 		seed.setFill(Color.MEDIUMTURQUOISE);
 		GridPane.setConstraints(seed, 0,10);
-
+		TextField seednum=new TextField();
 		Button seedGo=new Button("GO");
 		seedGo.setOnAction(e->{
-			//do something
+			Critter.setSeed(Integer.parseInt(seednum.getText().toString()));
 		});
 		HBox seedControl=new HBox();
-		TextField seednum=new TextField();
+		
 		seedControl.getChildren().addAll(seednum,seedGo);
 		GridPane.setConstraints(seedControl,0,11);
 
@@ -179,7 +192,7 @@ public class Main extends Application{
 		//quit
 		Button quit=new Button("Quit");
 		quit.setOnAction(e->{
-			//do something
+			System.exit(0);
 		});
 		GridPane.setConstraints(quit, 0, 12);
 
