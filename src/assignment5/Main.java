@@ -22,8 +22,11 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Region;
 import javafx.geometry.Insets;
 import java.io.File;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
+
+import assignment5.Critter;
 ///Users/cindyvu/Documents/GitHub/Critter-Part-2/src/assignment5
 public class Main extends Application{
 	public static void main(String[] args) {
@@ -160,16 +163,34 @@ public class Main extends Application{
 
 		VBox rs=new VBox();
 
-		CheckBox c1=new CheckBox("c1");
-		CheckBox c2=new CheckBox("c2");
-		CheckBox c3=new CheckBox("c3");
-		CheckBox c4=new CheckBox("c4");
+		ArrayList<CheckBox> c1 = new ArrayList<CheckBox>();
+		for(int i = 0;i<filenames.size();i++) {
+			c1.add(new CheckBox(filenames.get(i)));
+			rs.getChildren().add(c1.get(i));
+		}
 		Button runstatGo=new Button("GO");
 		Button updateAll=new Button("Update All");
 		runstatGo.setOnAction(e->{
-			
+			for(int i = 0;i<filenames.size();i++) {
+				if(c1.get(i).isSelected()) {
+					Class<?> c;
+					try {
+						c = Class.forName("assignment5." + filenames.get(i));
+						try {
+							c.getMethod("runStats", java.util.List.class).invoke(null,Critter.getInstances(filenames.get(i)));
+						} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException
+								| NoSuchMethodException | SecurityException | InvalidCritterException e1) {
+							// TODO Auto-generated catch block
+							e1.printStackTrace();
+						}
+					} catch (ClassNotFoundException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+				}
+			}
 		});
-		rs.getChildren().addAll(c1,c2,c3,c4,runstatGo,updateAll);
+		rs.getChildren().addAll(runstatGo,updateAll);
 		GridPane.setConstraints(rs,0,9);
 
 
