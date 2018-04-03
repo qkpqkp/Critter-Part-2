@@ -7,6 +7,7 @@ import assignment5.InvalidCritterException;
 import assignment5.Params;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.paint.Color;
 
 public abstract class Critter {
 	/* NEW FOR PROJECT 5 */
@@ -328,6 +329,19 @@ public abstract class Critter {
 	
 	
 	public static void displayWorld(GraphicsContext gc) {
+		int width = Params.world_width*8;
+		int height = Params.world_height*8;
+		gc.clearRect(0,0,Params.world_width*8, Params.world_height*8);
+		// vertical lines
+				gc.setStroke(Color.BLUE);
+				for(int i = 8 ; i <width ; i+=8){
+					gc.strokeLine(i, 0, i, height );
+				}
+				// horizontal lines
+				gc.setStroke(Color.BLUE);
+				for(int i = 8;i<height;i+=8) {
+					gc.strokeLine(0, i, width, i);
+				}
 		for(int i = 0;i<population.size();i++) {
 			View.PrintCritter(gc, population.get(i));
 		}

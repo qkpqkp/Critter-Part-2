@@ -223,18 +223,9 @@ public class Main extends Application{
 		Canvas canvas=new Canvas(width,height);
 		gc = canvas.getGraphicsContext2D();
 		gc.clearRect(0, 0, width,height);
+		
 
-
-		// vertical lines
-		gc.setStroke(Color.BLUE);
-		for(int i = 8 ; i <width ; i+=8){
-			gc.strokeLine(i, 0, i, height );
-		}
-		// horizontal lines
-		gc.setStroke(Color.BLUE);
-		for(int i = 8;i<height;i+=8) {
-			gc.strokeLine(0, i, width, i);
-		}
+		
 		// gc.setStroke(Color.RED);
 		//for(int i = 30 ; i < height ; i+=30) {
 		//gc.strokeLine(30, i, width, i);
@@ -257,8 +248,8 @@ public class Main extends Application{
 		animate.setOnAction(e->{
 			A1.start();
 		});
-		GridPane.setConstraints(animate,0,13);
-		GridPane.setConstraints(stop,1,13);
+		GridPane.setConstraints(animate,0,14);
+		GridPane.setConstraints(stop,1,14);
 		left.getChildren().addAll(animate,stop);
 		window.setScene(scene);
 		window.show();
