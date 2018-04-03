@@ -5,6 +5,8 @@ import java.util.List;
 import assignment5.Critter;
 import assignment5.InvalidCritterException;
 import assignment5.Params;
+import javafx.scene.canvas.Canvas;
+import javafx.scene.canvas.GraphicsContext;
 
 public abstract class Critter {
 	/* NEW FOR PROJECT 5 */
@@ -325,8 +327,10 @@ public abstract class Critter {
 	}
 	
 	
-	public static void displayWorld(Object pane) {
-		
+	public static void displayWorld(GraphicsContext gc) {
+		for(int i = 0;i<population.size();i++) {
+			View.PrintCritter(gc, population.get(i));
+		}
 	} 
 	/* Alternate displayWorld, where you use Main.<pane> to reach into your
 	   display component.

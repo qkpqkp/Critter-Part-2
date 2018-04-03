@@ -29,6 +29,7 @@ import java.util.ArrayList;
 import assignment5.Critter;
 ///Users/cindyvu/Documents/GitHub/Critter-Part-2/src/assignment5
 public class Main extends Application{
+	private static boolean check;
 	public static void main(String[] args) {
 		launch(args);
 	}
@@ -209,49 +210,67 @@ public class Main extends Application{
 		seedControl.getChildren().addAll(seednum,seedGo);
 		GridPane.setConstraints(seedControl,0,11);
 
-
 		//quit
 		Button quit=new Button("Quit");
 		quit.setOnAction(e->{
 			System.exit(0);
 		});
-		GridPane.setConstraints(quit, 0, 12);
-
+		GridPane.setConstraints(quit, 0, 13);
 		left.getChildren().addAll(stepPreset,step,quit,runstats,rs,make,seed,stepPreset2, critter,
 				seedControl,stepControl,makeControl);
-		int width=160;
-		int height=300;
-
-		Canvas canvas=new Canvas(width+500,height+500);
+		int width = Params.world_width*8;
+		int height = Params.world_height*8;
+		Canvas canvas=new Canvas(width,height);
 		GraphicsContext gc = canvas.getGraphicsContext2D();
-		gc.clearRect(0, 0, width+500, height+500);
+		gc.clearRect(0, 0, width,height);
 
 
 		// vertical lines
 		gc.setStroke(Color.BLUE);
-		for(int i = 10 ; i < width ; i+=5){
-			gc.strokeLine(i, 10, i, height );
+		for(int i = 8 ; i <width ; i+=8){
+			gc.strokeLine(i, 0, i, height );
 		}
-
 		// horizontal lines
+		gc.setStroke(Color.BLUE);
+		for(int i = 8;i<height;i+=8) {
+			gc.strokeLine(0, i, width, i);
+		}
 		// gc.setStroke(Color.RED);
 		//for(int i = 30 ; i < height ; i+=30) {
 		//gc.strokeLine(30, i, width, i);
 		// }
 		bp.setCenter(canvas);
-
-
-
-
-
-
-
+		//show
+		Button show = new Button("Show");
+		show.setOnAction(e->{
+			Critter.displayWorld(gc);
+		});
+		GridPane.setConstraints(show,0,12);
+		left.getChildren().add(show);
+		//Animate
+		Button animate = new Button("Simulate");
+		Button stop = new Button("Stop");
+		stop.setOnAction(e->{
+			check = false;
+		});
+		animate.setOnAction(e->{
+			check = true;
+			while(check == true) {
+				Critter.worldTimeStep();
+				Critter.displayWorld(gc);
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
+		});
+		GridPane.setConstraints(animate,0,13);
+		GridPane.setConstraints(stop,1,13);
+		left.getChildren().addAll(animate,stop);
 		window.setScene(scene);
 		window.show();
-
-
-
-
 
 
 	}
