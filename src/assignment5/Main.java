@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import assignment5.Critter;
 ///Users/cindyvu/Documents/GitHub/Critter-Part-2/src/assignment5
 public class Main extends Application{
-	private static boolean check;
+	static GraphicsContext gc;
 	public static void main(String[] args) {
 		launch(args);
 	}
@@ -221,7 +221,7 @@ public class Main extends Application{
 		int width = Params.world_width*8;
 		int height = Params.world_height*8;
 		Canvas canvas=new Canvas(width,height);
-		GraphicsContext gc = canvas.getGraphicsContext2D();
+		gc = canvas.getGraphicsContext2D();
 		gc.clearRect(0, 0, width,height);
 
 
@@ -250,21 +250,12 @@ public class Main extends Application{
 		//Animate
 		Button animate = new Button("Simulate");
 		Button stop = new Button("Stop");
+		Animate A1 = new Animate();
 		stop.setOnAction(e->{
-			check = false;
+			A1.stop();
 		});
 		animate.setOnAction(e->{
-			check = true;
-			while(check == true) {
-				Critter.worldTimeStep();
-				Critter.displayWorld(gc);
-				try {
-					Thread.sleep(1000);
-				} catch (InterruptedException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
-			}
+			A1.start();
 		});
 		GridPane.setConstraints(animate,0,13);
 		GridPane.setConstraints(stop,1,13);
