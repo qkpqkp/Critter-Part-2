@@ -36,10 +36,19 @@ public class Critter3 extends TestCritter{
      */
 
     public void doTimeStep() {
+        int roll = Critter.getRandomInt(GENE_TOTAL);
         setEnergy(getEnergy() + Params.photosynthesis_energy_amount);
+
         permit_to_move = true;
-        walk(dir);
-        permit_to_move = false;
+        if(look(dir,true)!=null) {
+            dir=roll%8;
+            walk(dir);
+            permit_to_move=false;
+        }
+        else {
+            walk(dir);
+            permit_to_move = false;
+        }
 
         if (getEnergy() >= 30) {
             Critter3 child = new Critter3();
@@ -56,7 +65,6 @@ public class Critter3 extends TestCritter{
             reproduce(child, Critter.getRandomInt(8));
         }
 
-        int roll = Critter.getRandomInt(GENE_TOTAL);
 
         dir = roll  % 8;
     }

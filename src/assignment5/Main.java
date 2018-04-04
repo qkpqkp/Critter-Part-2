@@ -41,6 +41,9 @@ public class Main extends Application{
 		BorderPane bp=new BorderPane();
 		GridPane left=new GridPane();
 		bp.setLeft(left);
+
+
+
 		Scene scene=new Scene(bp);
 
 		left.setPadding(new Insets(10,20,10,20));
@@ -55,7 +58,7 @@ public class Main extends Application{
 		GridPane.setConstraints(make,0,0);
 
 		ArrayList<String> filenames=new ArrayList<>();
-		File folder=new File("E:\\Java Programming\\Critter-part-2\\src\\assignment5");
+		File folder=new File("/Users/cindyvu/Documents/GitHub/Critter-Part-2/src/assignment5");
 		File[] listOfFiles = folder.listFiles();
 		for (File file : listOfFiles) {
 			if (file.isFile()) {
@@ -177,7 +180,15 @@ public class Main extends Application{
 					try {
 						c = Class.forName("assignment5." + filenames.get(i));
 						try {
-							c.getMethod("runStats", java.util.List.class).invoke(null,Critter.getInstances(filenames.get(i)));
+							String s=(String)c.getMethod("runStats", java.util.List.class).invoke(null,Critter.getInstances(filenames.get(i)));
+							Text stat_text=new Text();
+							stat_text.setText(s);
+							stat_text.setFont(Font.font("Verdana", 10));
+							stat_text.setFill(Color.BLACK);
+							GridPane.setConstraints(stat_text, 1,3);
+							GridPane bottom=new GridPane();
+							bp.setBottom(bottom);
+							bottom.getChildren().addAll(stat_text);
 						} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException
 								| NoSuchMethodException | SecurityException | InvalidCritterException e1) {
 							// TODO Auto-generated catch block
@@ -190,6 +201,7 @@ public class Main extends Application{
 				}
 			}
 		});
+
 		updateAll.setOnAction(e->{
 			for (int i=0;i<filenames.size();i++){
 				Class<?> c;
@@ -209,6 +221,7 @@ public class Main extends Application{
 
 			}
 		});
+
 		rs.getChildren().addAll(runstatGo,updateAll);
 		GridPane.setConstraints(rs,0,9);
 
@@ -236,6 +249,7 @@ public class Main extends Application{
 		GridPane.setConstraints(quit, 0, 13);
 		left.getChildren().addAll(stepPreset,step,quit,runstats,rs,make,seed,stepPreset2, critter,
 				seedControl,stepControl,makeControl);
+
 		int width = Params.world_width*8;
 		int height = Params.world_height*8;
 		Canvas canvas=new Canvas(width,height);
@@ -256,6 +270,7 @@ public class Main extends Application{
 		});
 		GridPane.setConstraints(show,0,12);
 		left.getChildren().add(show);
+
 		//Animate
 		Button animate = new Button("Simulate");
 		Button stop = new Button("Stop");

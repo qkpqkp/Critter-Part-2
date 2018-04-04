@@ -401,27 +401,34 @@ public abstract class Critter {
 		return result;
 	}
 	
-	public static void runStats(List<Critter> critters) {
-		//System.out.print("" + critters.size() + " critters as follows -- ");
+	public static String runStats(List<Critter> critters) {
+		String text=new String();
 		java.util.Map<String, Integer> critter_count = new java.util.HashMap<String, Integer>();
 		for (Critter crit : critters) {
 			String crit_string = crit.toString();
 
 
 			Integer old_count = critter_count.get(crit_string);
+
 			if (old_count == null) {
 				critter_count.put(crit_string,  1);
 			} else {
 				critter_count.put(crit_string, old_count.intValue() + 1);
 			}
 		}
-		String prefix = "";
+
+
 		for (String s : critter_count.keySet()) {
-		    System.out.println("There are "+ critter_count.get(s) + " of " +s);
-			//System.out.print(prefix + s + ":" + critter_count.get(s));
-			//prefix = ", ";
+			if (critter_count.get(s)==null){
+				continue;
+
+			}
+			String newLine = System.getProperty("line.separator");
+		    text+="There are "+ critter_count.get(s) + " of " +s+ newLine;
+
+
 		}
-		System.out.println();		
+		return text;
 	}
 	
 	/* the TestCritter class allows some critters to "cheat". If you want to 

@@ -1,36 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32a67499-d84f-4f5b-a5b8-ae14f843e82c" name="Default" comment="Shapes">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/.idea/src.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/Algae.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/AlgaephobicCritter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/Craig.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/Critter$CritterShape.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/Critter$TestCritter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/Critter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/Critter1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/Critter2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/Critter3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/Critter4.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/InvalidCritterException.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/Main.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/Params.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/assignment5/TragicCritter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" />
+    <list default="true" id="32a67499-d84f-4f5b-a5b8-ae14f843e82c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bin/assignment5/Algae.class" afterPath="$PROJECT_DIR$/bin/assignment5/Algae.class" />
+      <change beforePath="$PROJECT_DIR$/bin/assignment5/AlgaephobicCritter.class" afterPath="$PROJECT_DIR$/bin/assignment5/AlgaephobicCritter.class" />
+      <change beforePath="$PROJECT_DIR$/bin/assignment5/Craig.class" afterPath="$PROJECT_DIR$/bin/assignment5/Craig.class" />
+      <change beforePath="$PROJECT_DIR$/bin/assignment5/Critter$CritterShape.class" afterPath="$PROJECT_DIR$/bin/assignment5/Critter$CritterShape.class" />
+      <change beforePath="$PROJECT_DIR$/bin/assignment5/Critter$TestCritter.class" afterPath="$PROJECT_DIR$/bin/assignment5/Critter$TestCritter.class" />
+      <change beforePath="$PROJECT_DIR$/bin/assignment5/Critter.class" afterPath="$PROJECT_DIR$/bin/assignment5/Critter.class" />
+      <change beforePath="$PROJECT_DIR$/bin/assignment5/Critter1.class" afterPath="$PROJECT_DIR$/bin/assignment5/Critter1.class" />
+      <change beforePath="$PROJECT_DIR$/bin/assignment5/Critter2.class" afterPath="$PROJECT_DIR$/bin/assignment5/Critter2.class" />
+      <change beforePath="$PROJECT_DIR$/bin/assignment5/Critter3.class" afterPath="$PROJECT_DIR$/bin/assignment5/Critter3.class" />
+      <change beforePath="$PROJECT_DIR$/bin/assignment5/Critter4.class" afterPath="$PROJECT_DIR$/bin/assignment5/Critter4.class" />
+      <change beforePath="$PROJECT_DIR$/bin/assignment5/Main.class" afterPath="$PROJECT_DIR$/bin/assignment5/Main.class" />
+      <change beforePath="$PROJECT_DIR$/bin/assignment5/TragicCritter.class" afterPath="$PROJECT_DIR$/bin/assignment5/TragicCritter.class" />
+      <change beforePath="$PROJECT_DIR$/src/assignment5/Craig.java" afterPath="$PROJECT_DIR$/src/assignment5/Craig.java" />
       <change beforePath="$PROJECT_DIR$/src/assignment5/Critter.java" afterPath="$PROJECT_DIR$/src/assignment5/Critter.java" />
-      <change beforePath="$PROJECT_DIR$/src/assignment5/Critter1.java" afterPath="$PROJECT_DIR$/src/assignment5/Critter1.java" />
-      <change beforePath="$PROJECT_DIR$/src/assignment5/Critter2.java" afterPath="$PROJECT_DIR$/src/assignment5/Critter2.java" />
       <change beforePath="$PROJECT_DIR$/src/assignment5/Critter3.java" afterPath="$PROJECT_DIR$/src/assignment5/Critter3.java" />
-      <change beforePath="$PROJECT_DIR$/src/assignment5/Critter4.java" afterPath="$PROJECT_DIR$/src/assignment5/Critter4.java" />
       <change beforePath="$PROJECT_DIR$/src/assignment5/Main.java" afterPath="$PROJECT_DIR$/src/assignment5/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/assignment5/View.java" afterPath="$PROJECT_DIR$/src/assignment5/View.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,22 +29,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Algae.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignment5/Algae.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Craig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment5/Craig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-789">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="70" column="7" lean-forward="false" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -65,9 +43,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assignment5/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="213" column="45" lean-forward="false" selection-start-line="213" selection-start-column="45" selection-end-line="213" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="61">
+              <caret line="180" column="69" lean-forward="false" selection-start-line="180" selection-start-column="69" selection-end-line="180" selection-end-column="69" />
+              <folding>
+                <element signature="e#4356#4366#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,10 +55,10 @@
       <file leaf-file-name="Critter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment5/Critter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5252">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="321">
+              <caret line="426" column="73" lean-forward="false" selection-start-line="426" selection-start-column="73" selection-end-line="426" selection-end-column="73" />
               <folding>
-                <marker date="1522853640500" expanded="true" signature="9177:9180" ph="{}" />
+                <marker date="1522885326744" expanded="true" signature="9177:9180" ph="{}" />
               </folding>
             </state>
           </provider>
@@ -87,8 +67,8 @@
       <file leaf-file-name="Critter1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment5/Critter1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="143" column="61" lean-forward="false" selection-start-line="143" selection-start-column="61" selection-end-line="143" selection-end-column="61" />
+            <state relative-caret-position="142">
+              <caret line="122" column="42" lean-forward="true" selection-start-line="122" selection-start-column="42" selection-end-line="122" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -97,8 +77,8 @@
       <file leaf-file-name="Critter3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment5/Critter3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="62" column="66" lean-forward="false" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
+            <state relative-caret-position="485">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,7 +87,7 @@
       <file leaf-file-name="Critter2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment5/Critter2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="426">
               <caret line="129" column="67" lean-forward="false" selection-start-line="129" selection-start-column="67" selection-end-line="129" selection-end-column="67" />
               <folding />
             </state>
@@ -117,7 +97,7 @@
       <file leaf-file-name="Critter4.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment5/Critter4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
+            <state relative-caret-position="426">
               <caret line="95" column="62" lean-forward="false" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
               <folding />
             </state>
@@ -127,7 +107,7 @@
       <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment5/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="420">
               <caret line="33" column="123" lean-forward="false" selection-start-line="33" selection-start-column="123" selection-end-line="33" selection-end-column="123" />
               <folding />
             </state>
@@ -137,8 +117,8 @@
       <file leaf-file-name="Animate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assignment5/Animate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -152,10 +132,14 @@
       <find>getX</find>
       <find>toString</find>
       <find>make</find>
-      <find>display</find>
       <find>displayworl</find>
-      <find>gc</find>
       <find>runsta</find>
+      <find>runstats</find>
+      <find>display</find>
+      <find>gc</find>
+      <find>left</find>
+      <find>runstat</find>
+      <find>look</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,13 +153,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/assignment5/Main.java" />
-        <option value="$PROJECT_DIR$/src/assignment5/Critter3.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Critter4.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Critter2.java" />
-        <option value="$PROJECT_DIR$/src/assignment5/Critter.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Critter1.java" />
         <option value="$PROJECT_DIR$/src/assignment5/View.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/Critter3.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/Craig.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/Critter.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/Main.java" />
       </list>
     </option>
   </component>
@@ -190,7 +175,7 @@
     <option name="height" value="800" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -203,34 +188,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="assignment5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Critter-Part-2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignment5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Critter-Part-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignment5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Critter-Part-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -360,7 +318,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522681725520</updated>
-      <workItem from="1522681728559" duration="16945000" />
+      <workItem from="1522681728559" duration="17070000" />
+      <workItem from="1522879211956" duration="5580000" />
     </task>
     <task id="LOCAL-00001" summary="Controller interface">
       <created>1522708063271</created>
@@ -369,11 +328,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522708063272</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Shapes">
+      <created>1522853678836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522853678836</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16945000" />
+    <option name="totallyTimeSpent" value="22650000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -395,25 +361,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30811554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30811554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20078126" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -430,16 +396,16 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.014666666" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0137551585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30933332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30811554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20078126" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20078126" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -461,6 +427,74 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Algae.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3195">
+          <caret line="213" column="45" lean-forward="false" selection-start-line="213" selection-start-column="45" selection-end-line="213" selection-end-column="45" />
+          <folding>
+            <element signature="e#4356#4366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Craig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1522885326744" expanded="true" signature="9177:9180" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="143" column="61" lean-forward="false" selection-start-line="143" selection-start-column="61" selection-end-line="143" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="62" column="66" lean-forward="false" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="62" lean-forward="false" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="123" lean-forward="false" selection-start-line="33" selection-start-column="123" selection-end-line="33" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/Animate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -477,9 +511,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Craig.java">
+    <entry file="file://$PROJECT_DIR$/src/assignment5/stepLargeNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-789">
+        <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
@@ -487,59 +521,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/Critter4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
+        <state relative-caret-position="426">
           <caret line="95" column="62" lean-forward="false" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="62" column="66" lean-forward="false" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="129" column="67" lean-forward="false" selection-start-line="129" selection-start-column="67" selection-end-line="129" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="420">
           <caret line="33" column="123" lean-forward="false" selection-start-line="33" selection-start-column="123" selection-end-line="33" selection-end-column="123" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter1.java">
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Animate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="143" column="61" lean-forward="false" selection-start-line="143" selection-start-column="61" selection-end-line="143" selection-end-column="61" />
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="707" column="0" lean-forward="false" selection-start-line="707" selection-start-column="0" selection-end-line="707" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Craig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="70" column="7" lean-forward="false" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="129" column="67" lean-forward="false" selection-start-line="129" selection-start-column="67" selection-end-line="129" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/Critter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5252">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="321">
+          <caret line="426" column="73" lean-forward="false" selection-start-line="426" selection-start-column="73" selection-end-line="426" selection-end-column="73" />
           <folding>
-            <marker date="1522853640500" expanded="true" signature="9177:9180" ph="{}" />
+            <marker date="1522885326744" expanded="true" signature="9177:9180" ph="{}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="122" column="42" lean-forward="true" selection-start-line="122" selection-start-column="42" selection-end-line="122" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="213" column="45" lean-forward="false" selection-start-line="213" selection-start-column="45" selection-end-line="213" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="61">
+          <caret line="180" column="69" lean-forward="false" selection-start-line="180" selection-start-column="69" selection-end-line="180" selection-end-column="69" />
+          <folding>
+            <element signature="e#4356#4366#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
