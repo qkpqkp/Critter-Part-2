@@ -55,7 +55,7 @@ public class Main extends Application{
 		GridPane.setConstraints(make,0,0);
 
 		ArrayList<String> filenames=new ArrayList<>();
-		File folder=new File("/Users/cindyvu/Documents/GitHub/Critter-Part-2/src/assignment5");
+		File folder=new File("E:\\Java Programming\\Critter-part-2\\src\\assignment5");
 		File[] listOfFiles = folder.listFiles();
 		for (File file : listOfFiles) {
 			if (file.isFile()) {
@@ -125,10 +125,9 @@ public class Main extends Application{
 
 
 		Button step1000=new Button("Step 1000");
+		stepLargeNum s1000 = new stepLargeNum(1000);
 		step1000.setOnAction(e->{
-			for(int i = 0;i<1000;i++) {
-				Critter.worldTimeStep();
-			}
+			new Thread(s1000).start();
 		});
 
 
@@ -143,9 +142,8 @@ public class Main extends Application{
 		TextField stepnum=new TextField();
 		Button stepgo=new Button("GO");
 		stepgo.setOnAction(e->{
-			for(int i = 0;i < Integer.parseInt(stepnum.getText().toString());i++) {
-				Critter.worldTimeStep();
-			}
+			stepLargeNum sLarge = new stepLargeNum(Integer.parseInt(stepnum.getText().toString()));
+			new Thread(sLarge).start();
 		});
 
 

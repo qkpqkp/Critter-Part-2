@@ -34,6 +34,10 @@ public abstract class View {
 			gc.strokePolygon(new double[] {crit.getX()*8+1,crit.getX()*8+3,crit.getX()*8+5,crit.getX()*8+7,crit.getX()*8+5,crit.getX()*8+3},
 					new double[] {crit.getY()*8+4,crit.getY()*8+1,crit.getY()*8+1,crit.getY()*8+4,crit.getY()*8+7,crit.getY()*8+7},6);
 		}
+		else if(s.equals(Critter.CritterShape.STAR)) {
+			gc.strokePolygon(new double[] {crit.getX()*8+4,crit.getX()*8+3,crit.getX()*8+1,crit.getX()*8+3,crit.getX()*8+2,crit.getX()*8+4,crit.getX()*8+6,crit.getX()*8+5,crit.getX()*8+7,crit.getX()*8+5},
+					new double[] {crit.getY()*8+1,crit.getY()*8+3,crit.getY()*8+3,crit.getY()*8+4.5,crit.getY()*8+7,crit.getY()*8+5.5,crit.getY()*8+7,crit.getY()*8+4.5,crit.getY()*8+3,crit.getY()*8+3}, 10);
+		}
 		//More shapes3
 	}
 	

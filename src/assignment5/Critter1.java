@@ -111,9 +111,14 @@ public class Critter1 extends TestCritter {
 	public void doTimeStep() {
 		setEnergy(getEnergy() + Params.photosynthesis_energy_amount);
 		permit_to_move = true;
-		walk(dir);
-		permit_to_move = false;
-		
+		if(look(dir,true)!=null) {
+			run(dir);
+			permit_to_move = false;
+		}
+		else {
+			walk(dir);
+			permit_to_move = false;
+		}
 		if(getEnergy() >= Params.min_reproduce_energy) {
 			Critter1 child = new Critter1();
 			for (int k = 0; k < 8; k += 1) {
