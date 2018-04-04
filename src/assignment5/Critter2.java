@@ -20,7 +20,7 @@ public class Critter2 extends TestCritter {
 	 * return the representation of this critter
 	 */
     @Override 
-    public String toString() { return "2"; }
+    public String toString() { return "Critter2"; }
 
     /**
 	 * Decide fight or not, if not, try run or walk away
@@ -127,5 +127,5 @@ public class Critter2 extends TestCritter {
 
 		dir = (dir + turn) % 8;
 	}
-	public CritterShape viewShape() { return CritterShape.CIRCLE; }
+	public CritterShape viewShape() { return CritterShape.RECTANGLE; }
 }

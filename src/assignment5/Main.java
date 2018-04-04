@@ -55,7 +55,7 @@ public class Main extends Application{
 		GridPane.setConstraints(make,0,0);
 
 		ArrayList<String> filenames=new ArrayList<>();
-		File folder=new File("E:\\Java Programming\\Critter-part-2\\src\\assignment5");
+		File folder=new File("/Users/cindyvu/Documents/GitHub/Critter-Part-2/src/assignment5");
 		File[] listOfFiles = folder.listFiles();
 		for (File file : listOfFiles) {
 			if (file.isFile()) {
@@ -171,6 +171,7 @@ public class Main extends Application{
 		}
 		Button runstatGo=new Button("GO");
 		Button updateAll=new Button("Update All");
+
 		runstatGo.setOnAction(e->{
 			for(int i = 0;i<filenames.size();i++) {
 				if(c1.get(i).isSelected()) {
@@ -189,6 +190,25 @@ public class Main extends Application{
 						e1.printStackTrace();
 					}
 				}
+			}
+		});
+		updateAll.setOnAction(e->{
+			for (int i=0;i<filenames.size();i++){
+				Class<?> c;
+				try {
+					c = Class.forName("assignment5." + filenames.get(i));
+					try {
+						c.getMethod("runStats", java.util.List.class).invoke(null,Critter.getInstances(filenames.get(i)));
+					} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException
+							| NoSuchMethodException | SecurityException | InvalidCritterException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+				} catch (ClassNotFoundException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+
 			}
 		});
 		rs.getChildren().addAll(runstatGo,updateAll);

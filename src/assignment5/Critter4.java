@@ -24,7 +24,7 @@ public class Critter4 extends TestCritter{
      * return the representation of this critter
      */
     @Override
-    public String toString() { return "4"; }
+    public String toString() { return "Critter4"; }
 
     /**
      *
@@ -93,5 +93,5 @@ public class Critter4 extends TestCritter{
 
         dir = (dir + turn) % 8;
     }
-    public CritterShape viewShape() { return CritterShape.CIRCLE; }
+    public CritterShape viewShape() { return CritterShape.OVAL; }
 }

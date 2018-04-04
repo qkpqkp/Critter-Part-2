@@ -24,7 +24,7 @@ public class Critter1 extends TestCritter {
 	 * return the representation of this critter
 	 */
 	@Override 
-	public String toString() { return "1"; }
+	public String toString() { return "Critter1"; }
 	
 	/**
 	 * Decide fight or not, if not, try run or walk away
@@ -141,5 +141,5 @@ public class Critter1 extends TestCritter {
 
 
 	}
-	public CritterShape viewShape() { return CritterShape.CIRCLE; }
+	public CritterShape viewShape() { return CritterShape.HEX; }
 }

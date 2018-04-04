@@ -20,7 +20,21 @@ public abstract class View {
 			gc.strokePolygon(new double[] {crit.getX()*8+1,crit.getX()*8+3,crit.getX()*8+5,crit.getX()*8+7,crit.getX()*8+4},
 					new double[] {crit.getY()*8+3,crit.getY()*8+1,crit.getY()*8+1,crit.getY()*8+3,crit.getY()*8+7},5);
 		}
-		//More shapes!
+		else if (s.equals(Critter.CritterShape.TRIANGLE)){
+			gc.strokePolygon(new double[] {crit.getX()*8+1,crit.getX()*8+7,crit.getX()*8+4}, new double[]{crit.getY()*8+1,crit.getY()*8+1,crit.getY()*8+7},3);
+		}
+		else if (s.equals(Critter.CritterShape.OVAL)){
+			gc.strokeOval(crit.getX()*8+1, crit.getY()*8+3, 6, 3);
+		}
+		else if(s.equals(Critter.CritterShape.RECTANGLE))
+		{
+			gc.strokeRect(crit.getX()*8+1, crit.getY()*8+3, 6, 3);
+		}
+		else if(s.equals(Critter.CritterShape.HEX)) {
+			gc.strokePolygon(new double[] {crit.getX()*8+1,crit.getX()*8+3,crit.getX()*8+5,crit.getX()*8+7,crit.getX()*8+5,crit.getX()*8+3},
+					new double[] {crit.getY()*8+4,crit.getY()*8+1,crit.getY()*8+1,crit.getY()*8+4,crit.getY()*8+7,crit.getY()*8+7},6);
+		}
+		//More shapes3
 	}
 	
 }

@@ -25,7 +25,7 @@ public class Critter3 extends TestCritter{
      * return the representation of this critter
      */
     @Override
-    public String toString() { return "3"; }
+    public String toString() { return "Critter3"; }
 
     public boolean fight(String enemy) {
         return false;
@@ -60,6 +60,6 @@ public class Critter3 extends TestCritter{
 
         dir = roll  % 8;
     }
-    public CritterShape viewShape() { return CritterShape.CIRCLE; }
+    public CritterShape viewShape() { return CritterShape.TRIANGLE; }
 
 }
