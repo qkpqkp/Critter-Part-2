@@ -35,6 +35,9 @@ public class Main extends Application{
 	}
 
 	@Override
+	/**
+	 * Main thread of the program
+	 */
 	public void start(Stage window) throws Exception{
 		window.setTitle("Critter Part 2");
 
