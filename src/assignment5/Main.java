@@ -43,7 +43,6 @@ public class Main extends Application{
 		bp.setLeft(left);
 
 
-
 		Scene scene=new Scene(bp);
 
 		left.setPadding(new Insets(10,20,10,20));
@@ -58,7 +57,7 @@ public class Main extends Application{
 		GridPane.setConstraints(make,0,0);
 
 		ArrayList<String> filenames=new ArrayList<>();
-		File folder=new File("/Users/cindyvu/Documents/GitHub/Critter-Part-2/src/assignment5");
+		File folder=new File("E:\\Java Programming\\Critter-part-2\\src\\assignment5");
 		File[] listOfFiles = folder.listFiles();
 		for (File file : listOfFiles) {
 			if (file.isFile()) {
@@ -164,31 +163,37 @@ public class Main extends Application{
 		GridPane.setConstraints(runstats, 0,8);
 
 		VBox rs=new VBox();
-
+		
 		ArrayList<CheckBox> c1 = new ArrayList<CheckBox>();
 		for(int i = 0;i<filenames.size();i++) {
 			c1.add(new CheckBox(filenames.get(i)));
 			rs.getChildren().add(c1.get(i));
 		}
+		GridPane bottom=new GridPane();
+		bp.setBottom(bottom);
 		Button runstatGo=new Button("GO");
 		Button updateAll=new Button("Update All");
-
 		runstatGo.setOnAction(e->{
+			bottom.getChildren().clear();
 			for(int i = 0;i<filenames.size();i++) {
 				if(c1.get(i).isSelected()) {
 					Class<?> c;
 					try {
+						String s;
 						c = Class.forName("assignment5." + filenames.get(i));
 						try {
-							String s=(String)c.getMethod("runStats", java.util.List.class).invoke(null,Critter.getInstances(filenames.get(i)));
+							if(Critter.getInstances(filenames.get(i)).size()==0) {
+								s = "There is no " + filenames.get(i);
+							}
+							else {
+								s=(String)c.getMethod("runStats", java.util.List.class).invoke(null,Critter.getInstances(filenames.get(i)));
+							}
 							Text stat_text=new Text();
-							stat_text.setText(s);
-							stat_text.setFont(Font.font("Verdana", 10));
+							stat_text.setFont(Font.font("Verdana", 12));
 							stat_text.setFill(Color.BLACK);
-							GridPane.setConstraints(stat_text, 1,3);
-							GridPane bottom=new GridPane();
-							bp.setBottom(bottom);
-							bottom.getChildren().addAll(stat_text);
+							stat_text.setText(s);
+							GridPane.setConstraints(stat_text, 0,14+i);
+							bottom.getChildren().add(stat_text);
 						} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException
 								| NoSuchMethodException | SecurityException | InvalidCritterException e1) {
 							// TODO Auto-generated catch block
@@ -201,14 +206,26 @@ public class Main extends Application{
 				}
 			}
 		});
-
 		updateAll.setOnAction(e->{
+			bottom.getChildren().clear();
 			for (int i=0;i<filenames.size();i++){
 				Class<?> c;
 				try {
+					String s;
 					c = Class.forName("assignment5." + filenames.get(i));
 					try {
-						c.getMethod("runStats", java.util.List.class).invoke(null,Critter.getInstances(filenames.get(i)));
+						if(Critter.getInstances(filenames.get(i)).size()==0) {
+							s = "There is no " + filenames.get(i);
+						}
+						else {
+							s=(String)c.getMethod("runStats", java.util.List.class).invoke(null,Critter.getInstances(filenames.get(i)));
+						}
+						Text stat_text=new Text();
+						stat_text.setFont(Font.font("Verdana", 12));
+						stat_text.setFill(Color.BLACK);
+						stat_text.setText(s);
+						GridPane.setConstraints(stat_text,0,14+i);
+						bottom.getChildren().add(stat_text);
 					} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException
 							| NoSuchMethodException | SecurityException | InvalidCritterException e1) {
 						// TODO Auto-generated catch block
@@ -218,7 +235,7 @@ public class Main extends Application{
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
-
+				
 			}
 		});
 

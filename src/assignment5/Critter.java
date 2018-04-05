@@ -417,14 +417,13 @@ public abstract class Critter {
 			}
 		}
 
-
 		for (String s : critter_count.keySet()) {
 			if (critter_count.get(s)==null){
 				continue;
 
 			}
 			String newLine = System.getProperty("line.separator");
-		    text+="There are "+ critter_count.get(s) + " of " +s+ newLine;
+		    text+="There are "+ critter_count.get(s) + " of " +s;
 
 
 		}
